@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:run_one": "cypress run --spec 'cypress/e2e/test02.cy.js'"
   },
   "author": "",
   "license": "ISC",
